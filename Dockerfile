@@ -1,6 +1,6 @@
 FROM elasticsearch:5
 
-ENV ES_JAVA_OPTS="-Des.path.conf=/etc/elasticsearch -Xms1g -Xmx1g“
+ENV ES_JAVA_OPTS="-Des.path.conf=/etc/elasticsearch -Xms1024M -Xmx1024M"
 
 EXPOSE 9200 9300
 
